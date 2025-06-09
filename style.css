@@ -137,8 +137,8 @@
         /* Phone Mockup */
         .phone-mockup {
             width: 100%;
-            max-width: 300px;
-            height: 600px;
+            max-width: 290px;
+            height: 550px;
             background: linear-gradient(145deg, #1a1a1a, #2a2a2a);
             border-radius: 30px;
             padding: 20px;
