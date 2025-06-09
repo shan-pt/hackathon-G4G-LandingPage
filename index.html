@@ -293,6 +293,31 @@
             justify-content: center;
             box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
         }
+        .hero-gif {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-gif img {
+    height: 350px;
+    max-width: 100%;
+    width: auto;
+}
+
+@media (max-width: 768px) {
+    .hero-gif img {
+        height: 200px;
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-gif img {
+        height: 150px;
+        max-width: 85%;
+    }
+}
+
 
         .mascot-icon {
             font-size: 3rem;
@@ -809,7 +834,7 @@
             <a href="#how-it-works" class="cta-secondary">See how it works with Telegram</a>
         </div>
         
-        <!-- <div class="phone-mockup">
+         <div class="phone-mockup">
             <div class="phone-screen">
                 <div class="phone-header">
                     <h3>📱 Telegram</h3>
@@ -833,7 +858,7 @@
                     <div class="message-time">10:56</div>
                 </div>
             </div>
-        </div> -->
+        </div> 
     </section>
 
     <!-- See How It Works Section -->
@@ -864,8 +889,8 @@
                 </div>
             </div> -->
 
-           <div style="display: flex; justify-content: center;">
-    <img src="image/HeroGif.gif" height="350px" alt="">
+           <div class="hero-gif">
+    <img src="image/HeroGif.gif" alt="">
 </div>
 
         </div>
